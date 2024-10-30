@@ -1,0 +1,340 @@
+.linkid-block {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    border: 1px solid black;
+    letter-spacing: 0.2px;
+    /*text-align: center;*/
+    margin: 20px 0;
+}
+
+
+.linkid-block a {
+    color: #017B96;
+}
+
+.linkid-block-tall {
+    width: 100%;
+    max-width: 300px;
+}
+
+.linkid-block-wide {
+    width: 100%;
+    max-width: 570px;
+    display: block;
+    position: relative;
+}
+
+.linkid-block-wide::after {
+    content: "";
+    background: url('../img/linkid-seal-wide-bg.png') no-repeat left bottom;
+    background-size: 60%;
+    opacity: 0.05;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.linkid-block .linkid-block-header {
+    background-color: #75C043;
+    line-height: 45px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.linkid-block-header-logo {
+    max-height: 40px;
+    margin-bottom: 5px;
+}
+
+.linkid-block .linkid-seal {
+    vertical-align: middle;
+    display: inline-block;
+    height: 30px;
+}
+
+.linkid-block .header-text {
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.linkid-block .header-text .white {
+    margin-left: 1px;
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.linkid-block .linkid-block-content {
+    padding: 12px 25px;
+    background-color: white;
+}
+
+.linkid-panel-wide-wrapper {
+    display: table;
+    clear: both;
+}
+
+.linkid-block-content .body-header {
+    color: #017B96;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.linkid-block-content .linkid-features h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.linkid-block-content .linkid-features ul {
+    padding-left: 10px;
+    margin-top: 0;
+    font-size: 12px;
+    color: #75C043;
+}
+
+.linkid-block-content .linkid-features li {
+    list-style: none;
+}
+
+.linkid-block-content .linkid-features li:before {
+    content: "\2022";
+    font-size: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.linkid-block-content .linkid-block-panel-left {
+    display: table-cell;
+    width: 44%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.linkid-block-content .linkid-block-panel-right {
+    display: table-cell;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 5%;
+    width: 55%;
+    vertical-align: top;
+}
+
+.linkid-block-content .body-header-wide {
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 27px;
+    text-transform: none;
+}
+
+.linkid-block-content .body-header-wide span {
+    text-transform: none;
+    border-bottom: 2px solid #75C043;
+}
+
+.linkid-block-content .qr-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    border: 3px solid #F6F6F6;
+}
+
+.linkid-block-content .qr-image {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.linkid-block-content .store-logos {
+    width: 100%;
+    margin: 10px auto;
+    padding: 0;
+    display: block;
+}
+
+.store-logos img.store-img {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    padding: 0;
+}
+
+.linkid-block-content .store-logos a {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+    font-size: 0;
+}
+
+.linkid-block-content .store-logos a:first-child {
+    margin-right: 2%;
+}
+
+.linkid-block-content .store-logos a {
+    text-decoration: none;
+}
+
+.linkid-block-content .linkid-block-text {
+    color: #017B96;
+    margin: 15px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.linkid-action-button {
+    background-color: #75C043;
+    border: 0;
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.linkid-action-button {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -khtml-border-radius: 0;
+    background-color: #75C043;
+    border: 0;
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.linkid-action-button:hover {
+    color: white;
+    background: #59a730 !important;
+    box-shadow: none !important;
+}
+
+.linkid-action-button-retry {
+    color: white;
+    background: #59a730 !important;
+    box-shadow: none !important;
+}
+
+div#linkid-action {
+    margin: 15px 0;
+}
+
+.linkid-action-button-large {
+    width: 70%;
+    height: 70%;
+    white-space: normal;
+    text-align: center;
+    font-size: 21px;
+    padding: 8px;
+}
+
+span.linkid-load-icon {
+    font-size: 120px;
+    line-height: 100px;
+    font-weight: 400;
+}
+
+.linkid-action-button-small {
+    background-color: #75C043;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    line-height: 35px;
+    margin: 10px 0;
+    cursor: pointer;
+    white-space: normal;
+}
+
+.linkid-block p {
+    text-align: left;
+    font-size: 13px;
+}
+
+.linkid-start-button img {
+    vertical-align: middle;
+}
+
+.linkid-start-button {
+    font-size: 11px;
+    max-width: 300px;
+    border: 1px solid #000;
+    margin: 20px 0 !important;
+    text-transform: uppercase;
+}
+
+
+
+.linkid-block-content a.learn-more-button {
+    text-align: center;
+    margin: 10px 0;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #75C043;
+    padding: 0 10px;
+    max-width: 100%;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.linkid-block-payment {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.linkid-block-payment .qr-wrapper {
+    margin: 0 auto;
+    width: 260px;
+}
+
+.linkid-block-payment .payment-info {
+    margin: 15px 0;
+    color: #017B96;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.linkid-block-payment .abort-payment {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.linkid-block-payment-info {
+    width: 300px;
+}
+
+
+.linkid-action-error-message {
+    color: #A94442;
+    background-color: #F2DEDE;
+    padding: 12px;
+    margin: 15px;
+    border: 1px solid #EBCCD1;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}

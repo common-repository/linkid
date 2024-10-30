@@ -1,0 +1,825 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: linkid\n"
+"POT-Creation-Date: 2015-09-08 11:18+0200\n"
+"PO-Revision-Date: 2015-09-08 11:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: linkid-admin.php:52
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Je hebt onvoldoende rechten om deze pagina te bezoeken."
+
+#: linkid-admin.php:57
+msgid "Required"
+msgstr "Verplicht"
+
+#: linkid-admin.php:71 templates/linkid-merged-block.php:1
+msgid "linkID Settings"
+msgstr "linkID Instellingen"
+
+#: linkid-admin.php:107
+msgid "General Settings"
+msgstr "Algemene Instellingen"
+
+#: linkid-admin.php:116
+msgid "linkID Application Name"
+msgstr "linkID Applicatienaam"
+
+#: linkid-admin.php:117
+msgid "The name of your linkID application."
+msgstr "De naam van je linkID applicatie."
+
+#: linkid-admin.php:123
+msgid "linkID Hostname"
+msgstr "linkID Hostnaam"
+
+#: linkid-admin.php:124
+msgid ""
+"The url of the linkID server with which the store will communicate. Use "
+"service.linkid.be for production and demo.linkid.be for testing."
+msgstr ""
+"De url van de linkID server waarmee wordt gecommuniceerd voor aanmelden en/"
+"of betalen. Gebruik service.linkid.be voor productie, en demo.linkid.be om "
+"te testen."
+
+#: linkid-admin.php:131
+msgid "linkID Application Username"
+msgstr "linkID Applicatie Gebruikersnaam"
+
+#: linkid-admin.php:132
+msgid "The username of your linkID application."
+msgstr "De gebruikersnaam van je linkID applicatie."
+
+#: linkid-admin.php:138
+msgid "linkID Application Password"
+msgstr "linkID Applicatie Wachtwoord"
+
+#: linkid-admin.php:139
+msgid "The password of your linkID application."
+msgstr "Het wachtwoord van je linkID applicatie."
+
+#: linkid-admin.php:145
+msgid "linkID Profile"
+msgstr "linkID Profiel"
+
+#: linkid-admin.php:146
+msgid ""
+"The linkID profile used during login and/or payment. The profile may ask for "
+"e-mail, First Name, Family Name, Street Name, Street Number, Street Bus, "
+"City, Postal/Zip Code and Country from the user."
+msgstr ""
+"Het profiel specificeert welke gegevens aan de gebruiker worden gevraagd "
+"door linkID bij het aanmelden en/of betalen. Het kan een combinatie van e-"
+"mail, voornaam, familienaam, straatnaam, straatnummer, bus, stad, post-/ zip-"
+"code en land vragen aan de gebruiker."
+
+#: linkid-admin.php:159
+msgid "The general linkID settings used for both linkID login and payment."
+msgstr ""
+"De algemene linkID instellingen die zowel voor het aanmelden als de "
+"betalingen worden gebruikt."
+
+#: linkid-admin.php:174
+msgid "Login Settings"
+msgstr "Instellingen voor het aanmelden met linkID"
+
+#: linkid-admin.php:183
+msgid "Login Active"
+msgstr "Aanmelden actief"
+
+#: linkid-admin.php:184
+#, php-format
+msgid ""
+"Allow the linkID plugin to add an extra button to the login forms on this "
+"website. This button allows users to log in and register (if registrations "
+"areenabled in the <a href=\"%s\"> general settings</a>) with linkID."
+msgstr ""
+"Sta de linkID plugin toe om een een extra knop toe te voegen aan de "
+"aanmeldformulieren op deze website. Via deze knop kunnen linkID gebruikers "
+"aanmelden en registreren (indien registreren werd aangevinkt in de <a href="
+"\"%s\">algemene instellingen</a>) op de website."
+
+#: linkid-admin.php:196
+msgid "The linkID settings which are used during login."
+msgstr "De instellingen die worden gebruikt voor het aanmelden met linkID."
+
+#: linkid-admin.php:211
+msgid "Payment Settings"
+msgstr "Instellingen voor betalingen met linkID."
+
+#: linkid-admin.php:226
+#, php-format
+msgid ""
+"Please edit the settings for linkID payments inside the <a href=\"%s"
+"\">woocommerce settings</a>"
+msgstr ""
+"Gelieve de instellingen voor betalingen met linkID rechtstreeks in de <a "
+"href=\"%s\">woocommerce instellingen</a> aan te passen."
+
+#: linkid-admin.php:307
+#, php-format
+msgid ""
+"LinkID Settings incomplete. Please update settings <a href=\"%s\">here</a>"
+msgstr ""
+"De linkID instellingen zijn onvolledig. Gelieve de instellingen <a href=\"%s"
+"\">hier</a> aan te passen."
+
+#: linkid-admin.php:329
+#, php-format
+msgid ""
+"LinkID Settings invalid. Cannot start login session using the provided "
+"settings. Please change the settings <a href=\"%s\">here</a>"
+msgstr ""
+"De linkID instellingen zijn ongeldig. We kunnen geen aanmelding starten, "
+"gelieve de instellingen <a href=\"%s\">hier</a> aan te passen."
+
+#: linkid-admin.php:348
+#, php-format
+msgid ""
+"Permalinks should be enabled in order for the linkID payment provider to "
+"work. Please enable permalinks <a href=\"%s\">here</a>"
+msgstr ""
+"Permalinks moeten geactiveerd zijn alvorens de linkID betaalmethode kan "
+"worden gebruikt. Gelieve permalinks <a href=\"%s\">hier</a> aan te zetten."
+
+#: linkid-admin.php:363
+#, php-format
+msgid ""
+"You are currently using linkID demo settings. To change to production "
+"settings, click <a href=\"%s\">here</a>."
+msgstr ""
+"Je gebruikt momenteel demo-instellingen voor linkID. Selecteer <a href=\"%s"
+"\">hier</a> om over te schakelen op productie-instellingen."
+
+#: linkid-admin.php:389
+msgid "Settings"
+msgstr "Instellingen"
+
+#: linkid-login.php:88
+msgid "Something went wrong fetching the QR code. Please try again later."
+msgstr ""
+"Er ging iets mis bij het ophalen van de QR code. Gelieve het later opnieuw "
+"te proberen."
+
+#: linkid-login.php:150
+msgid "Try again"
+msgstr "Probeer opnieuw"
+
+#: linkid-login.php:152 linkid-payment-gateway.php:332
+msgid "Something went wrong. Please try again later."
+msgstr "Er ging iets mis. Gelieve het later opnieuw te proberen."
+
+#: linkid-login.php:153
+msgid "QR code expired. Please try again."
+msgstr "QR code verlopen. Gelieve opnieuw te proberen."
+
+#: linkid-login.php:154
+msgid ""
+"Successfully merged account with linkID. Please wait for the page to reload"
+msgstr ""
+"Je account werd met succes gekoppeld met linkID. Gelieve te wachten tot de "
+"pagina herladen is."
+
+#: linkid-login.php:155
+msgid "Successfully logged in. Please wait while you are being redirected."
+msgstr "Aangemeld. Even geduld terwijl je wordt doorgestuurd."
+
+#: linkid-login.php:156
+msgid "Start Merge"
+msgstr "Koppel accounts"
+
+#: linkid-login.php:156
+msgid "Start Login"
+msgstr "Start aanmelden"
+
+#: linkid-login.php:197
+msgid ""
+"Unable to start merging. Logged in user already linked to linkID account"
+msgstr ""
+"We kunnen de koppeling niet starten. De aangemelde gebruiker is reeds "
+"gekoppeld aan een andere linkID account."
+
+#: linkid-login.php:210
+msgid ""
+"Unable to start login. User already logged in. Please wait while you are "
+"being redirected."
+msgstr ""
+"Kan het aanmelden niet starten. Je bent reeds ingelogd. Gelieve even te "
+"wachten terwijl we jou doorsturen."
+
+#: linkid-login.php:295
+msgid "Cannot merge accounts. linkID account already linked to user"
+msgstr ""
+"We kunnen de accounts niet koppelen. De linkID account werd reeds gekoppeld "
+"aan een ander account."
+
+#: linkid-login.php:313
+msgid ""
+"Unable to merge accounts. Logged in user already linked to another linkID "
+"account"
+msgstr ""
+"We kunnen de accounts niet koppelen. De aangemelde gebruiker is reeds "
+"gekoppeld aan een andere linkID account."
+
+#: linkid-login.php:334
+msgid "Account merged with linkID"
+msgstr "Account werd gekoppeld met linkID"
+
+#: linkid-login.php:335
+#, php-format
+msgid ""
+"Dear user,<p>Your %s account has been merged with linkID. This means you can "
+"now log in on %s using linkID.</p><p>If you did not request an account "
+"merge, or if you wish to undo this action, you can go to the <a href=\"%s"
+"\">My account</a> page on %s and click the \"%s\" button.</p>"
+msgstr ""
+"Beste gebruiker,<p>Jouw %s account werd gekoppeld aan linkID. Dit betekent "
+"dat je nu met linkID kan aanmelden op %s.</p><p>Indien je deze koppeling "
+"niet zelf hebt aangevraagd, of indien je deze actie wenst ongedaan te maken, "
+"kan je naar jouw <a href=\"%s\">profielpagina</a> gaan op %s en op de \"%s\" "
+"knop drukken.</p>"
+
+#: linkid-login.php:342 templates/linkid-merged-block.php:13
+msgid "Unlink linkID"
+msgstr "Ontkoppel linkID"
+
+#: linkid-login.php:360
+msgid ""
+"Accounts have been merged successfully. Please wait for the page to reload"
+msgstr "De accounts werden gekoppeld. Even geduld terwijl de pagina herlaadt."
+
+#: linkid-login.php:379
+msgid "Cannot create an account:"
+msgstr "We kunnen geen account aanmaken:"
+
+#: linkid-login.php:390
+#, php-format
+msgid ""
+"Cannot create an account on this website using linkID. The email address %s, "
+"associated with your linkID account, already exists for this website. Please "
+"log in to your account on this website using your username and password and "
+"merge your accounts manually afterwards."
+msgstr ""
+"We kunnen geen account aanmaken. Het e-mailadres %s dat aan je linkID "
+"account is gekoppeld, is reeds in gebruik. Gelieve eerst in te loggen met je "
+"e-mailadres en wachtwoord, vervolgens kan je de accounts manueel koppelen."
+
+#: linkid-login.php:399
+msgid "Cannot log in: new user registration not allowed."
+msgstr "Kan niet aanmelden: registratie voor deze website niet toegestaan."
+
+#: linkid-login.php:415
+msgid ""
+"Something went wrong trying to create account for this website. Please try "
+"again later"
+msgstr ""
+"Er ging iets mis bij het aanmaken van je account voor deze website. Gelieve "
+"later opnieuw te proberen."
+
+#: linkid-login.php:521
+msgid "Cannot unlink accounts. Logged in user not linked to any linkID account"
+msgstr ""
+"Kan accounts niet loskoppelen: de aangemelde gebruiker heeft geen linkID "
+"account."
+
+#: linkid-login.php:539
+msgid "Accounts successfully unlinked. Please wait while page reloads."
+msgstr "De accounts werden ontkoppeld. Even geduld tot de pagina is herladen."
+
+#: linkid-login.php:555
+msgid "Cannot unlink accounts. Currently no logged in user."
+msgstr ""
+"We kunnen de accounts niet ontkoppelen. Er is momenteel geen gebruiker "
+"aangemeld."
+
+#: linkid-login.php:614
+msgid "Invalid email address in linkID account."
+msgstr "Ongeldig e-mailadres in je linkID account."
+
+#: linkid-payment-gateway.php:95
+msgid "Enable/Disable"
+msgstr "Activeren/Deactiveren"
+
+#: linkid-payment-gateway.php:97
+msgid "Enable LinkID Payment Gateway"
+msgstr "Schakel de linkID betaalprovider in."
+
+#: linkid-payment-gateway.php:102
+msgid "Title"
+msgstr "Titel"
+
+#: linkid-payment-gateway.php:104
+msgid "Title of the linkID Payment Gateway during checkout"
+msgstr "De titel van de linkID applicatie tijdens het afrekenen."
+
+#: linkid-payment-gateway.php:105
+msgid "linkID"
+msgstr "linkID"
+
+#: linkid-payment-gateway.php:109
+msgid "Description"
+msgstr "Beschrijving"
+
+#: linkid-payment-gateway.php:111
+msgid "This is the description which the user sees during checkout."
+msgstr "De beschrijving die de gebruiker te zien krijgt tijdens het afrekenen."
+
+#: linkid-payment-gateway.php:112
+msgid "Quick and secure payments using your smartphone."
+msgstr "Betaal snel en veilig met je smartphone."
+
+#: linkid-payment-gateway.php:116
+msgid "Payment Method Icon"
+msgstr "Icoon betaalmethode"
+
+#: linkid-payment-gateway.php:118
+msgid "Show linkID logo on checkout page."
+msgstr "Toon linkID logo op checkout pagina."
+
+#: linkid-payment-gateway.php:122
+msgid "Don't show logo"
+msgstr "Logo niet zichtbaar"
+
+#: linkid-payment-gateway.php:123
+msgid "Logo green background"
+msgstr "Logo met groene achtergrond"
+
+#: linkid-payment-gateway.php:124
+msgid "Logo white background"
+msgstr "Logo met witte achtergrond"
+
+#: linkid-payment-gateway.php:192
+#, php-format
+msgid "Commited wallet transaction %s of %s %s"
+msgstr "Wallet transactie %s van %s %s werd afgerond."
+
+#: linkid-payment-gateway.php:221
+#, php-format
+msgid "Payment status update for order reference %s. Status changed to %s"
+msgstr ""
+"Update betaalstatus voor linkID referentie %s: Status werd aangepast naar %s."
+
+#: linkid-payment-gateway.php:239
+#, php-format
+msgid ""
+"Payment failed notification came in for payment session with order reference "
+"%s"
+msgstr "Melding: betaalsessie met linkID referentie %s is mislukt."
+
+#: linkid-payment-gateway.php:293
+msgid ""
+"Something went wrong during payment. Please try again. If the problem "
+"persists, please contact us."
+msgstr ""
+"Er ging iets mis bij de betaling. Gelieve opnieuw te proberen. Gelieve ons "
+"te contacteren als het probleem zich blijft voordoen."
+
+#: linkid-payment-gateway.php:297
+msgid ""
+"The previous payment has been canceled. Please try again or cancel the "
+"payment and go back to cart."
+msgstr ""
+"De vorige betaling werd geannuleerd. Probeer opnieuw of annuleer de betaling "
+"en ga terug naar het winkelmandje."
+
+#: linkid-payment-gateway.php:330
+msgid "Please wait while you are being redirected to the payment provider."
+msgstr "Event geduld: je wordt doorgestuurd naar de betaalprovider."
+
+#: linkid-payment-gateway.php:331
+msgid "Payment succeeded, please wait while you are being redirected."
+msgstr ""
+"Je betaling is geslaagd. Nog even geduld terwijl je wordt doorgestuurd."
+
+#: linkid-payment-gateway.php:333
+msgid "Retry Payment"
+msgstr "Probeer opnieuw te betalen."
+
+#: linkid-payment-gateway.php:378
+#, php-format
+msgid "Canceled payment session with payment order reference %s."
+msgstr "Je betaalsessie met linkID referentie %s werd geannuleerd."
+
+#: linkid-payment-gateway.php:429
+#, php-format
+msgid "Payment for order on %s"
+msgstr "Betaling voor bestelling op %s"
+
+#: linkid-payment-gateway.php:431
+#, php-format
+msgid "Order %s"
+msgstr "Bestelling %s"
+
+#: linkid-payment-gateway.php:462
+#, php-format
+msgid "Created payment session for order with payment order reference %s."
+msgstr "Betaalsessie aangemaakt voor bestelling met linkID referentie %s."
+
+#: linkid-payment-gateway.php:485 linkid-payment-gateway.php:526
+msgid "Payment failed. Click \"Retry Payment\"."
+msgstr ""
+"Betaling mislukt. Selecteer “Probeer opnieuw”  om de betaling nogmaals te "
+"starten."
+
+#: linkid-payment-gateway.php:496
+msgid "Payment expired. Click \"Retry Payment\"."
+msgstr ""
+"Betaling verlopen. Selecteer “Probeer opnieuw te betalen” om de betaling "
+"nogmaals te starten."
+
+#: linkid-payment-gateway.php:627
+msgid "Initialized"
+msgstr "Geïnitialiseerd"
+
+#: linkid-payment-gateway.php:631
+msgid "Payed"
+msgstr "Betaald"
+
+#: linkid-payment-gateway.php:634
+msgid "Failed"
+msgstr "Gefaald"
+
+#: linkid-payment-gateway.php:637
+msgid "Refund Started"
+msgstr "Terugbetaling gestart"
+
+#: linkid-payment-gateway.php:640
+msgid "Refunded"
+msgstr "Terugbetaald"
+
+#: linkid-payment-gateway.php:643
+msgid "Started"
+msgstr "Gestart"
+
+#: linkid-payment-gateway.php:646
+msgid "Waiting for update"
+msgstr "Wachtend op update"
+
+#: linkid-payment-gateway.php:655
+msgid "(Unknown currency)"
+msgstr "(Onbekende munteenheid)"
+
+#: linkid-payment-gateway.php:659
+msgid "euro"
+msgstr "euro"
+
+#: templates/linkid-merged-block.php:6
+msgid ""
+"Your account is linked to linkID. If you wish to unlink your account from "
+"linkID, Click the \"Unlink linkID\" link below."
+msgstr ""
+"Jouw account is gekoppeld aan linkID. Indien je jouw account wenst te "
+"ontkoppelen, klik op “unlink linkID”."
+
+#: templates/login-block.php:7 templates/login-block.php:27
+msgid "Merge your account with linkID"
+msgstr "Koppel je account met linkID"
+
+#: templates/login-block.php:9 templates/login-block.php:29
+msgid "Log in or register with linkID"
+msgstr "Aanmelden of registreren met linkID."
+
+#: templates/login-block.php:11 templates/login-block.php:31
+msgid "Log in with linkID"
+msgstr "Aanmelden met linkID"
+
+#: templates/login-block.php:38
+msgid "Scan the QR Code with your linkID app, enter your pin and... You're in!"
+msgstr ""
+"Scan de QR code met de linkID app, voer je pincode in en… Je bent aangemeld!"
+
+#: templates/login-block.php:54
+msgid "Learn more on linkID.be"
+msgstr "Meer weten over linkID.be"
+
+#: templates/payment-block.php:8
+msgid "Pay using linkID"
+msgstr "Betaal met linkID"
+
+#: templates/payment-block.php:12
+#, php-format
+msgid "About to pay for order #%s"
+msgstr "Je staat op het punt om je bestelling #%s te betalen."
+
+#: templates/payment-block.php:16
+msgid ""
+"Scan the QR Code with your linkID app, enter your pin, select payment method "
+"and... Done!"
+msgstr ""
+"Scan de QR code met de linkID app. Geef je pincode in, selecteer “Betalen” "
+"en… je bent rond!"
+
+#: templates/payment-block.php:28
+msgid "Could not start payment. Please try again later."
+msgstr "We kunnen de betaling niet starten. Probeer later opnieuw."
+
+#: templates/payment-block.php:41
+msgid "Cancel payment and go back to cart."
+msgstr "Annuleer deze betaling en ga terug naar je winkelmandje."
+
+#~ msgid ""
+#~ "Your account is linked to linkID. If you wish to unlink your account from "
+#~ "linkID, Click the \"Unlink linkID\" button below."
+#~ msgstr ""
+#~ "Je account werd gekoppeld met linkID. Klik op “Ontkoppel linkID” indien "
+#~ "je de accounts wenst te ontkoppelen."
+
+#~ msgid "Payment status update. Status changed to %s"
+#~ msgstr "Wijziging betaalstatus. Status werd gewijzigd naar %s."
+
+#~ msgid ""
+#~ "Your payment is pending. You will receive an email when the payment has "
+#~ "been accepted."
+#~ msgstr ""
+#~ "Je betaling wordt verwerkt. Je zal een e-mail ontvangen wanneer de "
+#~ "betaling aanvaard is."
+
+#~ msgid "Your order has been paid successfully. Thank you for using linkID."
+#~ msgstr "Je bestelling is betaald. Bedankt om linkID te gebruiken."
+
+#~ msgid "Your payment has been received. Thank you for using linkID."
+#~ msgstr "Je betaling werd ontvangen. Bedankt om linkID te gebruiken."
+
+#~ msgid ""
+#~ "Your payment is pending. You will receive an email when the payment has "
+#~ "been accepted. Thank you for using linkID."
+#~ msgstr ""
+#~ "Je betaling wordt verwerkt. Je zal op de hoogte worden gebracht wanneer "
+#~ "de betaling is geaccepteerd. Bedankt om linkID te gebruiken."
+
+#~ msgid ""
+#~ "Something went wrong during payment. Please try again later. If the "
+#~ "problem persists, please contact us."
+#~ msgstr ""
+#~ "Er ging iets mis tijdens de betaling. Gelieve later opnieuw te proberen. "
+#~ "Aarzel niet om ons te contacteren indien het probleem zich blijft "
+#~ "voordoen."
+
+#~ msgid "Click <a href=\"%s\">here</a> to try the payment again."
+#~ msgstr ""
+#~ "Selecteer <a href=\"%s\">hier</a> om de betaling opnieuw te proberen."
+
+#~ msgid "The order has been canceled."
+#~ msgstr "De bestelling werd geannuleerd."
+
+#~ msgid ""
+#~ "You will be notified as soon as we have processed your payment. Thank you "
+#~ "for using linkID."
+#~ msgstr ""
+#~ "Je zal verwittigd worden zodra de betaling verwerkt is. Bedankt om linkID "
+#~ "te gebruiken."
+
+#~ msgid "Quick and secure payments using your smart phone."
+#~ msgstr "Betaal snel en veilig met je smartphone."
+
+#~ msgid "Payment Description"
+#~ msgstr "Beschrijving betaling."
+
+#~ msgid ""
+#~ "The message that will appear on the customers' mobile device during "
+#~ "payment and in the customers' payment logs afterwards"
+#~ msgstr ""
+#~ "Het bericht dat verschijnt op het mobiele toestel van de gebruiker "
+#~ "tijdens de betaling en in de betalingshistoriek."
+
+#~ msgid "Create account or log in. Fast &amp; Secure"
+#~ msgstr "Account aanmaken of aanmelden. Snel &amp; veilig."
+
+#~ msgid "Logo Visible"
+#~ msgstr "Logo zichtbaar"
+
+#~ msgid ""
+#~ "The icon that will be displayed when the customer is choosing a payment "
+#~ "method."
+#~ msgstr ""
+#~ "Het icoon dat zal worden getoond wanneer de klant een betaalmethode kiest"
+
+#~ msgid "No icon"
+#~ msgstr "Geen icoon"
+
+#~ msgid "Dark background"
+#~ msgstr "Donkere achtergrond"
+
+#~ msgid "Light background"
+#~ msgstr "Lichte achtergrond"
+
+#~ msgid ""
+#~ "Dear %s,<p>Your %s account has been merged with linkID. This means you "
+#~ "can now log in on %s using linkID.</p><p>If you did not request an "
+#~ "account merge, or if you wish to undo this action, you can go to the <a "
+#~ "href=\"%s\">My account</a> page on %s and click the \"%s\" button.</p>"
+#~ msgstr ""
+#~ "Beste %s,<p>Uw %s account werd gekoppeld met linkID. Dit betekent dat je "
+#~ "nu kan aanmelden op %s met linkID.</p><p>Indien jij de koppeling niet "
+#~ "hebt gemaakt, of als je deze actie ongedaan wenst te maken, kan je naar "
+#~ "de <a href=\"%s\">Mijn Account</a> pagina gaan op %s en op de \"%s\" knop "
+#~ "drukken.</p>"
+
+#~ msgid "Login Message"
+#~ msgstr "Bericht bij aanmelden"
+
+#~ msgid ""
+#~ "This message will appear on the mobile device of the customer when "
+#~ "logging in."
+#~ msgstr ""
+#~ "Dit bericht verschijnt op het mobiele toestel van de gebruiker tijdens "
+#~ "het aanmelden."
+
+#~ msgid "Login Success Message"
+#~ msgstr "Bericht geslaagde aanmelding"
+
+#~ msgid ""
+#~ "This message will appear on the mobile device of the customer when "
+#~ "successfully logged in."
+#~ msgstr ""
+#~ "Dit bericht verschijnt op het mobiele toestel van de gebruiker na een "
+#~ "geslaagde aanmelding."
+
+#~ msgid "Log in on %s"
+#~ msgstr "Aanmelden op %s."
+
+#~ msgid "Successfully logged in on %s"
+#~ msgstr "Succesvol aangemeld op %s"
+
+#~ msgid ""
+#~ "Allow the linkID plugin to show a linkID login box on the login forms and "
+#~ "for logging in existing users and registering new users (if registrations "
+#~ "are enabled in the <a href=\"%s\"> general settings</a>) with linkID."
+#~ msgstr ""
+#~ "Sta de linkID plugin toe om een een extra knop toe te voegen aan de "
+#~ "aanmeldformulieren. Via deze knop kunnen linkID gebruikers aanmelden en "
+#~ "registreren (indien registreren werd aangevinkt in de <a href=\"%s"
+#~ "\">algemene instellingen</a>) op de website."
+
+#~ msgid "Activate or deactivate the linkID login functionality"
+#~ msgstr ""
+#~ "Activeer of deactiveer de functionaliteit voor het aanmelden met linkID."
+
+#~ msgid ""
+#~ "Cannot log in: linkID user unknown to this website and visitors are not "
+#~ "allowed to register here."
+#~ msgstr ""
+#~ "Kan niet inloggen: nieuwe account aanmaken niet toegestaan op deze "
+#~ "website."
+
+#~ msgid ""
+#~ "Cannot unlink accounts. Logged in user not linkID to any linkID account"
+#~ msgstr ""
+#~ "We kunnen de accounts niet ontkoppelen. De aangemelde gebruiker heeft "
+#~ "geen linkID account."
+
+#~ msgid "You do not have sufficient permissions to access this page."
+#~ msgstr "Je hebt onvoldoende rechten om deze pagina te bezoeken."
+
+#~ msgid ""
+#~ "The linkID profile used during login and/or payment. The profile may "
+#~ "require Email, First Name, Family Name, Street Name, Street Number, "
+#~ "Street Bus, City, Postal/Zip Code and Country from the user."
+#~ msgstr ""
+#~ "Het linkID profiel dat gebruikt wordt tijdens het aanmelden en/of de "
+#~ "betaling. Het profiel kan e-mail, voornaam, familienaam, straatnaam, "
+#~ "straatnummer, bus, stad, post-/ zip-code en land vragen aan de gebruiker."
+
+#~ msgid "Cannot merge accoumts. linkID account already linkid to user"
+#~ msgstr ""
+#~ "We kunnen de accounts niet koppelen. De linkID account werd reeds "
+#~ "gekoppeld aan een ander account."
+
+#~ msgid "Payment state update. State changed to %s"
+#~ msgstr "Wijziging betaalstatus. Status werd gewijzigd naar %s."
+
+#~ msgid "Payment failed. Click \"Retry Payment\" to retry the payment."
+#~ msgstr "Betaling mislukt. Selecteer “Probeer opnieuw”."
+
+#~ msgid "Payment expired. Click \"Retry Payment\" to retry the payment."
+#~ msgstr ""
+#~ "Betaling verlopen. Selecteer “Probeer betaling opnieuw” om de betaling "
+#~ "opnieuw te proberen."
+
+#~ msgid ""
+#~ "Something went wrong during payment. Please try again later. If the "
+#~ "problempersists, please contact us."
+#~ msgstr ""
+#~ "Er ging iets mis tijdens de betaling. Gelieve later opnieuw te proberen. "
+#~ "Aarzel niet om ons te contacteren indien het probleem zich blijft "
+#~ "voordoen."
+
+#~ msgid ""
+#~ "You're account is linkID with linkID. If you wish to unlink your account "
+#~ "from linkID, Click the \"Unlink linkID\" button below."
+#~ msgstr ""
+#~ "Je account werd gekoppeld met linkID. Selecteer “Ontkoppel linkID” knop "
+#~ "indien je de accounts wilt ontkoppelen."
+
+#~ msgid "Could not initialize payment. Please try again later."
+#~ msgstr "We kunnen de betaling niet starten. Probeer later opnieuw."
+
+#~ msgid "Abort payment and go back to cart."
+#~ msgstr "Annuleer deze betaling en ga terug naar je winkelmandje."
+
+#~ msgid ""
+#~ "Your payment is pending. You will receive an email when the payment has "
+#~ "been\n"
+#~ "\t\t\t\t\t\taccepted."
+#~ msgstr ""
+#~ "We wachten op het afronden van betaling. Je zal op de hoogte worden "
+#~ "gebracht wanneer de betaling is afgerond."
+
+#~ msgid "You will be notified as soon as we have processed your payment."
+#~ msgstr ""
+#~ "Je zal op de hoogte worden gebracht wanneer wij uw betaling hebben "
+#~ "verwerkt."
+
+#~ msgid "Thank you. Your order has been paid successfully."
+#~ msgstr "Bedankt. Uw bestelling werd betaald."
+
+#~ msgid "Click <a href=\\\"%s\\\">here</a> to try the payment again."
+#~ msgstr ""
+#~ "Klik <a href=\\\"%s\\\">hier</a> om de betaling opnieuw te proberen."
+
+#~ msgid ""
+#~ "The linkID profile used during login and/or payment. The profile may "
+#~ "require Email, First Name,\n"
+#~ "\t\t\t\tFamily Name, Street Name, Street Number, Street Bus, City, Postal/"
+#~ "Zip Code and Country from the user."
+#~ msgstr ""
+#~ "Het linkID profiel dat gebruikt wordt tijdens het inloggen en / of de "
+#~ "betaling. Het profiel kan e-mail, voornaam, familienaam, straatnaam, "
+#~ "straatnummer, bus, stad, post-/ zip-code en land vragen aan de gebruiken."
+
+#~ msgid ""
+#~ "Cannot create an account on this website using linkID. The email address "
+#~ "%s, associated with your linkID account, already exists for this "
+#~ "website.\n"
+#~ "\t\t\t\t\t\t\t\tPlease log in to your account on this website using your "
+#~ "username and password and merge your accounts manually afterwards."
+#~ msgstr ""
+#~ "Kan geen account aanmaken op deze website met linkID. Het e-mailadres %s "
+#~ "dat aan uw linkID account is gekoppeld is reeds in gebruik op deze "
+#~ "website. Gelieve eerst in te loggen op deze website met uw e-mailadres en "
+#~ "wachtwoord. Vervolgens kan u de accounts manueel koppelen."
+
+#~ msgid ""
+#~ "You are currently using linkID demo settings. To change to production "
+#~ "settings, click <a href=\"%s\">here</a>s."
+#~ msgstr ""
+#~ "Je gebruikt momenteel demo instellingen voor linkID. Klik <a href=\"%s"
+#~ "\">hier</a> om over te schakelen op productie instellingen."
+
+#~ msgid ""
+#~ "Permalinks should be enabled in order for the linkID payment provider to "
+#~ "work.\n"
+#~ "\t\t\t\t\t\t\tPlease enable permalinks <a href=\"%s\">here</a>"
+#~ msgstr ""
+#~ "Permalinks moeten aan staan alvorens de linkID betaalmethode geactiveerd "
+#~ "kan worden. Gelieve permalinks <a href=\"%s\">hier</a> aan te zetten."
+
+#~ msgid ""
+#~ "LinkID Settings invalid. Cannot start login session using the provided\n"
+#~ "\t\t\t\t\t\t\tsettings. Please change the settings <a href=\"%s\">here</a>"
+#~ msgstr ""
+#~ "De linkID instellingen zijn ongeldig. Kan geen aanmelding starten aan de "
+#~ "hand van de ingevoerde instellingen. Gelieve de instellingen <a href=\"%s"
+#~ "\">hier</a> aan te passen."
+
+#~ msgid ""
+#~ "LinkID Settings incomplete. Please update settings <a\n"
+#~ "\t\t\t\t\t\t\thref=\"%s\">here</a>"
+#~ msgstr ""
+#~ "De linkID instellingen zijn onvolledig. gelieve de instellingen <a\n"
+#~ "\t\t\t\t\t\t\thref=\"%s\">hier</a> aan te passen"
+
+#~ msgid ""
+#~ "Please edit the settings for linkID payments inside the <a\n"
+#~ "\t\t\t\t\t\thref=\"%s\">woocommerce settings</a>"
+#~ msgstr ""
+#~ "Gelieve de instellingen voor betalingen met linkID in de <a\n"
+#~ "\t\t\t\t\t\thref=\"%s\">woocommerce instellingen</a> aan te passen."
+
+#~ msgid ""
+#~ "The url of the linkID server with which the store will communicate. "
+#~ "Usually service.linkid.be\n"
+#~ "\t\t\t\tfor production and demo.linkid.be for testing."
+#~ msgstr ""
+#~ "De url van de linkID server waarmee word gecommuniceerd. Voor productie "
+#~ "is dit service.linkid.be, tijdens het testen wordt demo.linkid.be "
+#~ "gebruikt."
+
+#~ msgid ""
+#~ "Something went wrong during payment. Please try again later. If the "
+#~ "problem persists,\n"
+#~ "\t\t\t\t\t\tplease contact us."
+#~ msgstr ""
+#~ "Er ging iets mis bij de betaling. Gelieve later opnieuw te proberen. "
+#~ "Gelieve ons te contacteren als het probleem zich blijft voordien."
